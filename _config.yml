@@ -1,0 +1,94 @@
+# Fuse Core Theme for Jekyll - Settings
+# https://github.com/tsjensen/fuse-core
+
+markdown: kramdown
+permalink: pretty
+exclude: ['README.*', 'LICENSE.txt']
+sass:
+    style: expanded
+
+
+# CAUTION
+# When modifying this file, take care to preserve the indentation. This is YAML ...
+
+# Main Headline, name required, subtitle optional
+name: Doug Proctor
+#subtitle:
+subtitle: Builder
+
+# Title attribute of HTML Page, uses 'name' from above if empty
+title:
+
+# Information for web crawlers / Google, all of them optional
+# 'description' and 'keywords' simply set the corresponding meta tags,
+# 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
+robots:
+    description: Doug Proctor, formerly @Palantir, @Georgetown.
+    keywords: Doug Proctor, Palantir, Builder
+    crawl: index,follow
+
+# website address when deployed, also given as canonical link
+url: https://dougproctor.com
+
+# The 'baseurl' is prepended to all website-internal links.
+# 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
+# If not empty, be careful to keep the leading slash, and don't add a slash at the end.
+#baseurl: ''
+baseurl: ''
+
+# Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
+# In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
+# Also, some places require you to anonymize the users' IPs, which can be enabled via 'anonymizeip' below. You normally want that.
+# https://support.google.com/analytics/answer/2763052
+#ga:
+ga:
+    account: 'UA-##'
+    cookieconsent: false
+    anonymizeip: false
+
+
+# A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
+# Leave empty for generic placeholder image.
+# You can use your GitHub image:
+avatar: "https://avatars0.githubusercontent.com/u/8897534"
+#avatar: "images/jonathan_doe.jpg"
+#avatar:
+
+
+# All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
+# The order of this list controls the order of the links on the page. Feel free to add.
+links:
+  - linkedin:
+      name: LinkedIn
+      show: false
+      href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
+      icon: fab fa-linkedin
+  - twitter:
+      name: Twitter
+      show: true
+      href: https://twitter.com/YOUR_TWITTER_USERNAME
+      icon: fab fa-twitter
+  - instagram:
+      name: Instagram
+      show: false
+      href: https://instagram.com/YOUR_INSTAGRAM_USERNAME
+      icon: fab fa-instagram
+  - github:
+      name: GitHub
+      show: true
+      href: https://github.com/tsjensen
+      icon: fab fa-github
+  - publickey:
+      name: PGP Key
+      show: true
+      href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
+      icon: fas fa-key
+
+
+# Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
+#extra_html:
+extra_html: >
+    Any (multiline) text containing simple HTML,
+    such as links or ... lorem ipsum.
+
+#EOF
