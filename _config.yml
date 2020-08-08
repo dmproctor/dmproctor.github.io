@@ -50,22 +50,19 @@ ga:
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/8897534"
-#avatar: "images/jonathan_doe.jpg"
-#avatar:
-
+avatar: "images/dougproctor.jpg"
 
 # All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
 # The order of this list controls the order of the links on the page. Feel free to add.
 links:
   - linkedin:
       name: LinkedIn
-      show: false
-      href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
+      show: true
+      href: https://www.linkedin.com/in/doug-proctor-10337624/
       icon: fab fa-linkedin
   - twitter:
       name: Twitter
-      show: true
+      show: false
       href: https://twitter.com/YOUR_TWITTER_USERNAME
       icon: fab fa-twitter
   - instagram:
@@ -75,15 +72,9 @@ links:
       icon: fab fa-instagram
   - github:
       name: GitHub
-      show: true
-      href: https://github.com/tsjensen
+      show: false
+      href: https://github.com/dougproctor
       icon: fab fa-github
-  - publickey:
-      name: PGP Key
-      show: true
-      href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
-      icon: fas fa-key
-
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
