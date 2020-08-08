@@ -14,7 +14,7 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Doug Proctor
 #subtitle:
-subtitle: Builder
+subtitle: ' '
 
 # Title attribute of HTML Page, uses 'name' from above if empty
 title:
@@ -78,8 +78,6 @@ links:
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
-extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+extra_html: ' '
 
 #EOF
