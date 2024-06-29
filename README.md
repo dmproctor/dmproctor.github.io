@@ -1,3 +1,7 @@
+// Repo for Doug's personal website: dougproctor.com
+
+
+
 [DEMO](https://tsjensen.github.io/fuse-core/)
 
 # Fuse Core
