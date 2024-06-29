@@ -23,8 +23,8 @@ title:
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: Doug Proctor, formerly @Palantir, @Georgetown.
-    keywords: Doug Proctor, Palantir, Builder
+    description: Doug Proctor
+    keywords: Doug Proctor, Palantir, Candid Health.
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
