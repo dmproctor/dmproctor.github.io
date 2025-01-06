@@ -1,106 +1,88 @@
----
-permalink: /
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if site.title %}{{ site.title }}{% else %}{{ site.name }}{% endif %}</title>
-    <meta name="JekyllTheme" content="Fuse Core by Thomas Jensen" />
-    {% if site.robots.description %}<meta name="Description" content="{{ site.robots.description }}" />{% endif %}
-    {% if site.robots.keywords %}<meta name="Keywords" content="{{ site.robots.keywords }}" />{% endif %}
-    {% if site.robots.crawl %}<meta name="Robots" content="{{ site.robots.crawl }}" />{% endif %}
-    <meta name="HandheldFriendly" content="true" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if site.url %}<link rel="canonical" href="{{ site.url }}">{% endif %}
-    {% include analytics.html %}
-
-    <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.baseurl }}/images/favicons/site.webmanifest">
-    <link rel="mask-icon" href="{{ site.baseurl }}/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#00a300">
-    <meta name="msapplication-config" content="{{ site.baseurl }}/images/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Stylesheets -->
-    {% comment %} Bootstrap should be the first stylesheet {% endcomment %}
-    <link rel="stylesheet" type="text/css" crossorigin="anonymous"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/theme.css">
-    <link rel="stylesheet" type="text/css" crossorigin="anonymous"
-          href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-          integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc">
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin">
-    
-    {% if site.ga and site.ga.cookieconsent %}
-    <!-- Cookie Consent popup to comply with EU cookie law -->
-    <link rel="stylesheet" type="text/css" crossorigin="anonymous"
-          href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
-          integrity="sha384-nA7usz4cMKo7RylsCZnpe0V9qx5X7sa011o0OrDzrKUE7Ero1gB48Fjaw6SFxVZe" />
-    <script async crossorigin="anonymous" data-cfasync="false"
-          src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
-          integrity="sha384-xLPjH6nqG4p/2mu1KJ1t+4KqcvkyXVwBucQtyGK65lDNfKzECxGY/QEYWR+Wompr"></script>
-    <script>
-        window.addEventListener("load", function(){
-          window.cookieconsent.initialise({
-            "cookie": { "expiryDays": 730 },
-            "palette": {
-              "popup": { "background": "#383b75" },
-              "button": { "background": "#f1d600" }
-            },
-            "theme": "classic"
-          });
-        });
-    </script>
-    {% endif %}
+    <title>Doug Proctor</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #020202;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 0 100px;
+            text-align: center;
+        }
+        img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 20px 30px;
+        }
+        h1 {
+            margin: 10px 0;
+        }
+        .linkedin-icon {
+            margin-top: 20px;
+        }
+        .linkedin-icon a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .linkedin-icon a:hover {
+            color: #0e76a8;
+        }
+        .linkedin-icon img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
-<body class="fullscreen-background">
+<body>
+    <br>
+    <br>
+    <br>
+    <img src="images/dougproctor.jpg" alt="DougProctorHeadshot">
+    <br>
+    <br>
+    <br>
+    <h1>Doug Proctor</h1><p>Denver, CO</p>
+    <p>       
+        <h3>Candid Health (Present)</h3>
+        The fundamental problem impeding a radically more efficient and effective US healthcare system is the friction and complexity of healthcare financial transactions. Healthcare accounts for ~20% of US GDP, and ~15% of that spend is wasted on administrative cruft related to healthcare payments. Candid Health is building a modern revenue cycle automation platform which addresses this problem. Doug is Chief Operating Officer at Candid Health, where he oversees Candid's product, customer and people teams and serves on Candid's Board of Directors. 
+        <br>
+        <br>
+        <h3>Insula</h3>
+        Buildings consume 40% of energy produced in the US. 30% of the energy that goes into buildings is wasted because of bad insulation. Meanwhile, there has been little meaningful progress on building insulation technologies in the past 20+ years. Prior to Candid, Doug was co-founder and CEO at Insula, a materials company created to commercialize a building insulation material developed at a US National Lab, which had radical climate and energy impact potential, compelling manufacturing characteristics, and defensible intellectual property. Doug built a motivated, capable team, which ultimately invalidated the core technology. After invalidating the central premise for the business, Insula returned captial to invetors and wound down operations.
+        <br>
+        <br>
+        <h3> Palantir</h3>
+        Prior to Candid and Insula, Doug spent 5+ years at Palantir where he was initially Chief of Staff to the Head of Product and Engineering at a time when Palantir was resetting its entire product stack, which led to the creation of Palantir Foundry. Doug spent significant time in Afghanistan, the broader Middle East and around the world while building and leading several of Palantir's most important teams in the Defense space, including Palantir's global intel and operational support for US Special Operations, rebuilding the Army's core intelligence data systems (DCGS-A CD2), and establishing the Army's central data platform (Army Vantage).
+        <br>
+        <br>
+        <h3>Origins</h3>
+        Doug grew up in Washington, DC. He went to Sidwell Friends School, lived in Beijing, China for two years before college, and graduated from the School of Foreign Service at Georgetown University.
+        <br>
+        <br>
+        <h3>North Star</h3>
+        Doug is fundamentally motivated by learning and by building effective teams which meaningfully impact hard and worthy problems.
 
-<div class="glass-pane">
-<div class="container fuse-core-content pb-4">
-
-<div class="row pt-sm-4">
-    <div class="col text-center"><img id="avatar" class="my-3 my-sm-4" alt="{{ site.name }}"
-        src="{% if site.avatar %}{% if site.avatar contains '://' %}{{ site.avatar }}{%
-        else %}{{ site.baseurl }}/{{ site.avatar }}{% endif %}{%
-        else %}{{ site.baseurl }}/images/avatar.svg{% endif %}"></div>
-</div>
-<div class="row">
-    <div class="col">
-        <h1 class="text-center font-weight-bold">{{ site.name }}</h1>
-        {% if site.subtitle %}<h3 class="text-center font-weight-light">{{ site.subtitle }}</h3>{% endif %}
+    </p>
+    <div class="linkedin-icon">
+        <a href="https://www.linkedin.com/in/doug-proctor-10337624/" target="_blank">
+            <img src="images/linkedin-icon.png">
+        </a>
     </div>
-</div>
-
-<div class="row justify-content-center links pt-1 pt-sm-2">
-{% for hash in site.links %}{% for linkInfo in hash %}{% if linkInfo[1].show %}
-    <div class="col-xs-12 col-sm-2 col-lg-1 px-3 px-sm-0 mt-2 mt-sm-3 text-sm-center"><a
-        href="{{ linkInfo[1].href }}"{% if site.ga %}
-        onclick="trackOutboundLink('{{ linkInfo[1].name }}', '{{ linkInfo[1].href }}'); return false;"
-        {% endif %}><i class="{{ linkInfo[1].icon }} fa-fw"></i>
-        <span class="d-inline d-sm-none">{{ linkInfo[1].name }}</span></a></div>
-{% endif %}{% endfor %}{% endfor %}
-</div>
-
-{% if site.extra_html %}
-<div class="row justify-content-center">
-    <div class="col mt-3 text-sm-center fuse-core-extra">{{ site.extra_html }}</div>
-</div>
-{% endif %}
-
-</div>
-</div>
-
-<footer><div class="container"><div class="row">
-    <div class="col text-center">© 2025 - All Rights Reserved</div>
-</div></div></footer>
-
 </body>
 </html>
